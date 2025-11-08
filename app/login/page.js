@@ -59,7 +59,7 @@ export default function LoginPage() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition text-gray-900"
                 placeholder="you@example.com"
               />
             </div>
@@ -90,7 +90,7 @@ export default function LoginPage() {
         </form>
 
         <div className="text-center text-sm text-gray-600">
-          Don't have an account?{' '}
+          Dont have an account?{' '}
           <Link href="/register" className="text-blue-600 hover:text-blue-700 font-semibold">
             Sign up
           </Link>

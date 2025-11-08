@@ -74,7 +74,7 @@ export default function AnalyticsPage() {
         <select
           value={year}
           onChange={(e) => setYear(parseInt(e.target.value))}
-          className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
+          className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none text-gray-900"
         >
           {Array.from({ length: 5 }, (_, i) => new Date().getFullYear() - i).map(y => (
             <option key={y} value={y}>{y}</option>
